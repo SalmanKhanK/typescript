@@ -7,4 +7,3 @@ let message;
 message = 'abc';
 let endsWithC = (<string>message).endsWith('g');
 let endsWithD = (message as string).endsWith('g');
-console.log(endsWithC);
